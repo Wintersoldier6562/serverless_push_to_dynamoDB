@@ -1,0 +1,106 @@
+{
+    "bids": [
+        {
+            "adUnitCode": "/19968336/header-bid-tag-1",
+            "gptSlotCode": "/19968336/header-bid-tag-1",
+            "auctionId": "c6df44ae-a191-4e3c-b9db-3dc729bee9ba",
+            "bidderCode": "appnexus",
+            "cpm": 1.5,
+            "creativeId": 96846035,
+            "currency": "USD",
+            "floorData": {
+                "floorValue": 0.65,
+                "floorRule": "custom_adunit|*",
+                "floorRuleValue": 0.65,
+                "floorCurrency": "USD",
+                "cpmAfterAdjustments": 1.5,
+                "enforcements": {
+                    "enforceJS": true,
+                    "enforcePBS": false,
+                    "floorDeals": true,
+                    "bidAdjustment": true
+                },
+                "matchedFields": {
+                    "customGptSlot": "custom_adunit",
+                    "size": "300x250"
+                }
+            },
+            "mediaType": "banner",
+            "netRevenue": true,
+            "requestTimestamp": 1684328449443,
+            "responseTimestamp": 1684328449687,
+            "statusMessage": "Bid available",
+            "timeToRespond": 244,
+            "transactionId": "9abac7ae-6d23-49c4-80a4-bad4174d94fc",
+            "bidId": "24180c7a5e8e5f",
+            "renderStatus": 2,
+            "sizes": "300x250"
+        },
+        {
+            "adUnitCode": "/19968336/header-bid-tag-2",
+            "gptSlotCode": "/19968336/header-bid-tag-2",
+            "auctionId": "c6df44ae-a191-4e3c-b9db-3dc729bee9ba",
+            "bidderCode": "appnexus",
+            "cpm": 10,
+            "creativeId": 97520554,
+            "currency": "USD",
+            "floorData": {
+                "floorValue": 0.65,
+                "floorRule": "custom_adunit|*",
+                "floorRuleValue": 0.65,
+                "floorCurrency": "USD",
+                "cpmAfterAdjustments": 10,
+                "enforcements": {
+                    "enforceJS": true,
+                    "enforcePBS": false,
+                    "floorDeals": true,
+                    "bidAdjustment": true
+                },
+                "matchedFields": {
+                    "customGptSlot": "custom_adunit",
+                    "size": "0x0"
+                }
+            },
+            "mediaType": "native",
+            "netRevenue": true,
+            "requestTimestamp": 1684328449443,
+            "responseTimestamp": 1684328449688,
+            "statusMessage": "Bid available",
+            "timeToRespond": 245,
+            "transactionId": "8c4191a8-bfb4-40ab-8730-21df47176e87",
+            "bidId": "32385d718d90d4",
+            "renderStatus": 2,
+            "sizes": "0x0"
+        }
+    ],
+    "floorDetail": {
+        "skipped": false,
+        "skipRate": 0,
+        "modelVersion": "{\"abd\": \"ann-v1.0-deltaml_dt_0.75_dwt_0.95_dnt_0.25\"}",
+        "location": "fetch",
+        "floorProvider": "PubxFloorProvider",
+        "fetchStatus": "success"
+    },
+    "pageDetail": {
+        "host": "local-pnh.net:8080",
+        "path": "/stream/",
+        "search": "",
+        "adUnitCount": 2
+    },
+    "deviceDetail": {
+        "platform": "MacIntel",
+        "deviceType": "desktop",
+        "deviceOS": "Macintosh",
+        "browser": "Chrome"
+    },
+    "initOptions": {
+        "samplingRate": 10,
+        "pubxId": "47f20c1b-5e16-45d3-b65a-7dd90864f1b8",
+        "auctionId": "c6df44ae-a191-4e3c-b9db-3dc729bee9ba"
+    },
+    "pmcDetail": {
+        "bidDensity": "2",
+        "maxBid": "10",
+        "auctionId": "c6df44ae-a191-4e3c-b9db-3dc729bee9ba"
+    }
+}
